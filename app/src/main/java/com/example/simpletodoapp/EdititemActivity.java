@@ -22,7 +22,7 @@ public class EdititemActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_edititem);
         // resolve edit text from layout
-        etItemText = (EditText) findViewById(R.id.etNewItem);
+        etItemText = (EditText) findViewById(R.id.etItemText);
         // set edit text value from intent extra
         etItemText.setText(getIntent().getStringExtra(ITEM_TEXT));
         //update position from intent extra

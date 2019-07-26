@@ -76,7 +76,7 @@ ListView lvItems;
         // set up item listener for edit (regular click)
         lvItems.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
-            public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 // create the new activity
                 Intent i = new Intent(MainActivity.this, EdititemActivity.class);
                 // pass the data being edited
