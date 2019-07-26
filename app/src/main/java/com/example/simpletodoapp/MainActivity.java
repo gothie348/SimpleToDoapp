@@ -78,7 +78,7 @@ ListView lvItems;
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 // create the new activity
-                Intent i = new Intent(MainActivity.this, EdititemActivity.class);
+                Intent i = new Intent(MainActivity.this, EditItemActivity.class);
                 // pass the data being edited
                 i.putExtra(ITEM_TEXT, item.get(position));
                 i.putExtra(ITEM_POSITION, position);

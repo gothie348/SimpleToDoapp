@@ -10,7 +10,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import static com.example.simpletodoapp.MainActivity.ITEM_POSITION;
 import static com.example.simpletodoapp.MainActivity.ITEM_TEXT;
 
-public class EdititemActivity extends AppCompatActivity {
+public class EditItemActivity extends AppCompatActivity {
 
     // track edit text
     EditText etItemText;
